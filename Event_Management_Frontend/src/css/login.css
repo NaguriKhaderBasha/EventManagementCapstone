@@ -1,0 +1,169 @@
+.login-container {
+    width: 360px;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    background: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .login-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-title {
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #1a1a2e;
+    letter-spacing: 0.5px;
+  }
+  
+  .login-subtitle {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .error-message {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #e94560;
+    background-color: rgba(233, 69, 96, 0.1);
+    padding: 8px 12px;
+    border-radius: 5px;
+    border-left: 3px solid #e94560;
+    text-align: left;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f8f9fa;
+  }
+  
+  .login-input:focus {
+    outline: none;
+    border-color: #0f3460;
+    box-shadow: 0 0 0 2px rgba(15, 52, 96, 0.2);
+  }
+  
+  .login-button {
+    background-color: #0f3460;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #16213e;
+  }
+  
+  .login-button:active {
+    transform: scale(0.98);
+  }
+  
+  .forgot-password {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #0f3460;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .login-divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .login-divider::before,
+  .login-divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .login-divider-text {
+    padding: 0 10px;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .social-button:hover {
+    background-color: #eee;
+    transform: translateY(-2px);
+  }
+  
+  .signup-link {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .signup-link a {
+    color: #0f3460;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
